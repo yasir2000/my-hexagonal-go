@@ -3,7 +3,7 @@ package arithamtic
 type Adaptor struct {
 }
 
-//instance of Adaptor struct
+//instance of Adaptor struct, instances mostly implemented with pointer type and returns
 func NewAdaptor() *Adaptor {
 	return &Adaptor{}
 }

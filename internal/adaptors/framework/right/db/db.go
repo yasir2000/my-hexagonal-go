@@ -46,6 +46,6 @@ func (da Adaptor) AddToHistory(answer int32, operation string) error {
 	if err != nil {
 		return err
 	}
-
+	// returning nil, means that we dont want to return anything or that we dont have error
 	return nil
 }
