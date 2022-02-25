@@ -1,4 +1,16 @@
 # my-hexagonal-go
+Of of most beautiful implementations of Hexagonal (Port-Adaptor based) Architecture using Golang, a gRPC/REST Arith Operations API
+
+Packages and Libs used:
+
+Squirrel
+MySQL
+Protobuf
+LANN
+Testify
+Go-CMP
+Go-Spew
+
 $ mkdir -p ./{bin,src,pkg}
 
 protoc --go-grpc_out=internal/adaptors/framework/left/grpc --proto_path=internal/adaptors/framework/left/grpc/proto internal/adaptors/framework/left/grpc/proto/*.proto
